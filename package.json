@@ -1,6 +1,6 @@
 {
   "name": "hipsum-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI tool for quickly generating Hipster Ipsum filler text and copying it to your clipboard — Edit",
   "main": "index.js",
   "scripts": {
