@@ -1,0 +1,35 @@
+{
+  "name": "hipsum-cli",
+  "version": "0.0.1",
+  "description": "A CLI tool for quickly generating Hipster Ipsum filler text and copying it to your clipboard — Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brycehill/hipsum-cli.git"
+  },
+  "bin": {
+    "hipsum": "./bin/hipsum.js"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "filler",
+    "text",
+    "text",
+    "cli"
+  ],
+  "author": "Bryce Hill <bryceahill@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brycehill/hipsum-cli/issues"
+  },
+  "homepage": "https://github.com/brycehill/hipsum-cli",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "copy-paste": "^1.1.3",
+    "hipsteripsum": "^0.2.0"
+  }
+}
